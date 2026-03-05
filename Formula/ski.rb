@@ -1,17 +1,17 @@
 class Ski < Formula
   desc "SKIntelligence CLI"
   homepage "https://github.com/linhay/SKIntelligence"
-  version "2.0.2"
+  version "2.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/linhay/SKIntelligence/releases/download/2.0.2/ski-macos-arm64.tar.gz"
-      sha256 "66c870fc5a5e4b14fe4b22ffe1b2dd50d0616ca0a4a81c8ae1edbbaedf2dbaeb"
+      url "https://github.com/linhay/SKIntelligence/releases/download/2.0.3/ski-macos-arm64.tar.gz"
+      sha256 "7a2161cd0b9d0972a1566f2414088131cf4f1db6b2510567e85917653cd06daa"
     end
     on_intel do
-      url "https://github.com/linhay/SKIntelligence/releases/download/2.0.2/ski-macos-x86_64.tar.gz"
-      sha256 "28ee2885bb00504a63e8e1a526996a14bbba4750cb61b1bd3874ad7fe6ae4c15"
+      url "https://github.com/linhay/SKIntelligence/releases/download/2.0.3/ski-macos-x86_64.tar.gz"
+      sha256 "ed8f49bbff7eb6ef2d0a0f40eec7f8138267c6b711d703e6a0ad48f4ed9085a2"
     end
   end
 
