@@ -1,13 +1,13 @@
 class Neptune < Formula
   desc "Neptune gateway CLI"
   homepage "https://github.com/NeptuneKit/neptune-gateway-swift"
-  version "0.0.1"
-  url "https://github.com/NeptuneKit/neptune-gateway-swift/releases/download/v0.0.1/neptune-v0.0.1"
-  sha256 "6104fe88f73c074402b431e3f9aba1ad713f310b40adb6dcba561a2365da07a1"
+  version "0.0.2"
+  url "https://github.com/NeptuneKit/neptune-gateway-swift/releases/download/v0.0.2/neptune-v0.0.2"
+  sha256 "de9d8ec2fd2aaebc13ead752dd222cde791563faf39d58b195676ae64abd9b61"
   license "MIT"
 
   def install
-    bin.install "neptune-v0.0.1" => "neptune"
+    bin.install "neptune-v0.0.2" => "neptune"
   end
 
   test do
